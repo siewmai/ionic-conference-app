@@ -63,6 +63,7 @@
     "@types/jasminewd2": "2.0.8",
     "@types/node": "^12.12.26",
     "codelyzer": "^5.2.1",
+    "cordova-plugin-ionic": "^5.4.7",
     "jasmine-core": "^3.5.0",
     "jasmine-spec-reporter": "4.2.1",
     "karma": "4.4.1",
@@ -88,7 +89,15 @@
       "cordova-plugin-whitelist": {},
       "cordova-plugin-ionic-webview": {},
       "cordova-plugin-statusbar": {},
-      "cordova-plugin-ionic-keyboard": {}
+      "cordova-plugin-ionic-keyboard": {},
+      "cordova-plugin-ionic": {
+        "APP_ID": "48ac85a7",
+        "CHANNEL_NAME": "Production",
+        "UPDATE_METHOD": "background",
+        "MAX_STORE": "2",
+        "MIN_BACKGROUND_DURATION": "30",
+        "UPDATE_API": "https://api.ionicjs.com"
+      }
     }
   }
 }
